@@ -48,6 +48,9 @@ Liste des tâches à réaliser:
 ![commentaire](Image/droits.drawio.png )
 
 ###  Création du plan d'adressage IP
+
+
+
 |               | adresse ip   | masque        | utilisateurs | superviseurs | agents | getway       | dns               | serveurs     | plage d’adresse     |
 |---------------|--------------|---------------|--------------|--------------|--------|--------------|-------------------|--------------|---------------------|
 | réseau        | 192.168.60.0 | 255.255.255.0 | 14           | 4            | 10     | 192.168.60.1 | Afpa-amiens.local | 192.168.60.1 | 192.168.60.50 à 100 |
@@ -55,3 +58,11 @@ Liste des tâches à réaliser:
 | production    |              | 255.255.255.0 | 4            | 1            | 3      | 192.168.60.1 | Afpa-amiens.local | 192.168.60.1 | 192.168.60.50 à 100 |
 | commercial    |              | 255.255.255.0 | 4            | 1            | 3      | 192.168.60.1 | Afpa-amiens.local | 192.168.60.1 | 192.168.60.50 à 100 |
 | Comptabilité  |              | 255.255.255.0 | 4            | 1            | 3      | 192.168.60.1 | Afpa-amiens.local | 192.168.60.1 | 192.168.60.50 à 100 |
+
+
+### Mise en place du controleur de domaine
+
+Pour la mise en place du controleur de domaine , je vais installer un hyperviseur proxmox est installer un windows serveur .
+
+Installation du proxmox :
+
